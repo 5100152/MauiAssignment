@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="InstagramMAui.SearchPage">
+
+    <ScrollView Orientation="Vertical">
+        <StackLayout Orientation="Vertical">
+            <StackLayout Orientation="Vertical">
+                <Entry Text="search" HeightRequest="30" WidthRequest="350"></Entry>
+                <StackLayout Orientation="Horizontal">
+
+                    <Image Source="cpsu2176.JPG" 
+                   HeightRequest="95" 
+                   Aspect="AspectFit"
+                  Margin="4,1,1,1"></Image>
+                    <Image Source="post3" 
+                           WidthRequest="125"
+                   HeightRequest="95" 
+                   Aspect="AspectFill"
+                  Margin="1,1,1,1"></Image>
+                    <Image Source="post8" 
+                           WidthRequest="125"
+                   HeightRequest="95" 
+                   Aspect="AspectFill"
+                  Margin="1,1,1,1"></Image>
+
+                </StackLayout>
+
+                <StackLayout Orientation="Horizontal">
+
+                    <Image Source="post9" 
+           HeightRequest="95" 
+                           WidthRequest="125"
+           Aspect="AspectFill"
+          Margin="4,1,1,1"></Image>
+                    <Image Source="post5" 
+                           WidthRequest="125"
+           HeightRequest="95" 
+           Aspect="AspectFill"
+          Margin="1,1,1,1"></Image>
+                    <Image Source="post2" 
+                           WidthRequest="125"
+           HeightRequest="95" 
+           Aspect="AspectFill"
+          Margin="1,1,1,1"></Image>
+
+                </StackLayout>
+
+                <StackLayout Orientation="Horizontal">
+
+                    <Image Source="cpsu2176.JPG" 
+         HeightRequest="95" 
+         Aspect="AspectFit"
+        Margin="4,1,1,1"></Image>
+                    <Image Source="post3" 
+                 WidthRequest="125"
+         HeightRequest="95" 
+         Aspect="AspectFill"
+        Margin="1,1,1,1"></Image>
+                    <Image Source="post8" 
+                 WidthRequest="125"
+         HeightRequest="95" 
+         Aspect="AspectFill"
+        Margin="1,1,1,1"></Image>
+
+                </StackLayout>
+
+                <StackLayout Orientation="Horizontal">
+
+                    <Image Source="post9" 
+ HeightRequest="95" 
+                 WidthRequest="125"
+ Aspect="AspectFill"
+Margin="4,1,1,1"></Image>
+                    <Image Source="post5" 
+                 WidthRequest="125"
+ HeightRequest="95" 
+ Aspect="AspectFill"
+Margin="1,1,1,1"></Image>
+                    <Image Source="post2" 
+                 WidthRequest="125"
+ HeightRequest="95" 
+ Aspect="AspectFill"
+Margin="1,1,1,1"></Image>
+
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+
+                    <Image Source="cpsu2176.JPG" 
+         HeightRequest="95" 
+         Aspect="AspectFit"
+        Margin="4,1,1,1"></Image>
+                    <Image Source="post3" 
+                 WidthRequest="125"
+         HeightRequest="95" 
+         Aspect="AspectFill"
+        Margin="1,1,1,1"></Image>
+                    <Image Source="post8" 
+                 WidthRequest="125"
+         HeightRequest="95" 
+         Aspect="AspectFill"
+        Margin="1,1,1,1"></Image>
+
+                </StackLayout>
+
+                <StackLayout Orientation="Horizontal">
+
+                    <Image Source="post9" 
+ HeightRequest="95" 
+                 WidthRequest="125"
+ Aspect="AspectFill"
+Margin="4,1,1,1"></Image>
+                    <Image Source="post5" 
+                 WidthRequest="125"
+ HeightRequest="95" 
+ Aspect="AspectFill"
+Margin="1,1,1,1"></Image>
+                    <Image Source="post2" 
+                 WidthRequest="125"
+ HeightRequest="95" 
+ Aspect="AspectFill"
+Margin="1,1,1,1"></Image>
+
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+
+                    <Image Source="cpsu2176.JPG" 
+         HeightRequest="95" 
+         Aspect="AspectFit"
+        Margin="4,1,1,1"></Image>
+                    <Image Source="post3" 
+                 WidthRequest="125"
+         HeightRequest="95" 
+         Aspect="AspectFill"
+        Margin="1,1,1,1"></Image>
+                    <Image Source="post8" 
+                 WidthRequest="125"
+         HeightRequest="95" 
+         Aspect="AspectFill"
+        Margin="1,1,1,1"></Image>
+
+                </StackLayout>
+
+                <StackLayout Orientation="Horizontal">
+
+                    <Image Source="post9" 
+ HeightRequest="95" 
+                 WidthRequest="125"
+ Aspect="AspectFill"
+Margin="4,1,1,1"></Image>
+                    <Image Source="post5" 
+                 WidthRequest="125"
+ HeightRequest="95" 
+ Aspect="AspectFill"
+Margin="1,1,1,1"></Image>
+                    <Image Source="post2" 
+                 WidthRequest="125"
+ HeightRequest="95" 
+ Aspect="AspectFill"
+Margin="1,1,1,1"></Image>
+
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+
+                    <Image Source="cpsu2176.JPG" 
+         HeightRequest="95" 
+         Aspect="AspectFit"
+        Margin="4,1,1,1"></Image>
+                    <Image Source="post3" 
+                 WidthRequest="125"
+         HeightRequest="95" 
+         Aspect="AspectFill"
+        Margin="1,1,1,1"></Image>
+                    <Image Source="post8" 
+                 WidthRequest="125"
+         HeightRequest="95" 
+         Aspect="AspectFill"
+        Margin="1,1,1,1"></Image>
+
+                </StackLayout>
+
+                <StackLayout Orientation="Horizontal">
+
+                    <Image Source="post9" 
+ HeightRequest="95" 
+                 WidthRequest="125"
+ Aspect="AspectFill"
+Margin="4,1,1,1"></Image>
+                    <Image Source="post5" 
+                 WidthRequest="125"
+ HeightRequest="95" 
+ Aspect="AspectFill"
+Margin="1,1,1,1"></Image>
+                    <Image Source="post2" 
+                 WidthRequest="125"
+ HeightRequest="95" 
+ Aspect="AspectFill"
+Margin="1,1,1,1"></Image>
+
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+
+                    <Image Source="cpsu2176.JPG" 
+         HeightRequest="95" 
+         Aspect="AspectFit"
+        Margin="4,1,1,1"></Image>
+                    <Image Source="post3" 
+                 WidthRequest="125"
+         HeightRequest="95" 
+         Aspect="AspectFill"
+        Margin="1,1,1,1"></Image>
+                    <Image Source="post8" 
+                 WidthRequest="125"
+         HeightRequest="95" 
+         Aspect="AspectFill"
+        Margin="1,1,1,1"></Image>
+
+                </StackLayout>
+
+                <StackLayout Orientation="Horizontal">
+
+                    <Image Source="post9" 
+ HeightRequest="95" 
+                 WidthRequest="125"
+ Aspect="AspectFill"
+Margin="4,1,1,1"></Image>
+                    <Image Source="post5" 
+                 WidthRequest="125"
+ HeightRequest="95" 
+ Aspect="AspectFill"
+Margin="1,1,1,1"></Image>
+                    <Image Source="post2" 
+                 WidthRequest="125"
+ HeightRequest="95" 
+ Aspect="AspectFill"
+Margin="1,1,1,1"></Image>
+
+                </StackLayout>
+
+
+
+
+
+
+            </StackLayout>
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

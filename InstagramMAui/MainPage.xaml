@@ -1,0 +1,684 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="InstagramMAui.MainPage">
+
+    <ScrollView Orientation="Vertical">
+        <StackLayout>
+            <StackLayout Orientation="Horizontal">
+
+            <Label Text="Instagram"
+               FontSize="30"
+               FontFamily="Cursive"
+               FontAttributes="Bold"
+               HorizontalOptions="StartAndExpand"
+               Margin="0,8,0,20"/>
+
+                <Image Source="like.jpeg" WidthRequest="45" HeightRequest="40"/>
+                <Image Source="share.jpeg" WidthRequest="45" HeightRequest="40"/>
+                
+
+            </StackLayout>
+            <!--stories-->
+            
+            <StackLayout Orientation="Horizontal" Margin="0,0,10,10">
+
+
+                <StackLayout Orientation="Vertical" Margin="8,0,0,10">
+                    <Frame Padding="0" IsClippedToBounds="True" CornerRadius="45" WidthRequest="80" HeightRequest="80">
+                        <Image Source="cpsu2176.jpg"   Aspect="AspectFill" />
+                    </Frame>
+
+                    <Label Text="  Your Story"/>
+                </StackLayout>
+
+
+                <StackLayout Orientation="Vertical" Margin="8,0,0,10">
+                    <Frame Padding="0" IsClippedToBounds="True" CornerRadius="45" WidthRequest="80" HeightRequest="80">
+                        <Image Source="post1" Aspect="AspectFill" />
+                    </Frame>
+
+                    <Label Text="  Sim-bone"/>
+                </StackLayout>
+
+
+                <StackLayout Orientation="Vertical" Margin="8,0,0,10">
+                    <Frame Padding="0" IsClippedToBounds="True" CornerRadius="45" WidthRequest="80" HeightRequest="80">
+                        <Image Source="post2" Aspect="AspectFill" />
+                    </Frame>
+
+                    <Label Text="       Jason"/>
+                </StackLayout>
+       
+
+
+
+            <StackLayout Orientation="Vertical" Margin="8,0,0,10">
+                    <Frame Padding="0" IsClippedToBounds="True" CornerRadius="45" WidthRequest="80" HeightRequest="80">
+                        <Image Source="post4" Aspect="AspectFill" />
+                    </Frame>
+
+                    <Label Text="    Ishmael"></Label>
+                </StackLayout>
+                <StackLayout Orientation="Vertical" Margin="8,0,0,10">
+                    <Frame IsClippedToBounds="True" CornerRadius="45" WidthRequest="80" HeightRequest="80" Padding="0">
+                        <Image Source="post9"   Aspect="AspectFill" />
+                    </Frame>
+
+                    <Label Text="Instagram"/>
+                </StackLayout>
+                <StackLayout Orientation="Vertical" Margin="8,0,0,10">
+                    <Frame BorderColor="#ff1122" Padding="4" IsClippedToBounds="True" CornerRadius="45" WidthRequest="80" HeightRequest="80">
+                        <Image Source="cpsu2176.jpg"   Aspect="AspectFill" />
+                    </Frame>
+
+                    <Label Text="Instagram"/>
+                </StackLayout>
+
+
+                <StackLayout Orientation="Vertical" Margin="8,0,0,10">
+                    <Frame Padding="0" IsClippedToBounds="True" CornerRadius="45" WidthRequest="50" HeightRequest="50">
+                        <Image Source="cpsu2176.jpg"   Aspect="AspectFill" />
+                    </Frame>
+
+                    <Label Text="Instagram"/>
+                </StackLayout>
+            </StackLayout>
+
+
+            <StackLayout Orientation="Vertical" Spacing="20" >
+
+                <StackLayout Orientation="Vertical">
+
+                    <StackLayout Orientation="Horizontal" Margin="0,0,10,0">
+                        <Frame Padding="0" IsClippedToBounds="True" CornerRadius="45" WidthRequest="50" HeightRequest="50">
+                            <Image Source="cpsu2176.jpg"   Aspect="AspectFill" />
+                        </Frame>
+                        <Label Text=" Yours.sincerelydoingthings" FontSize="18" VerticalOptions="Center"/>
+                    </StackLayout>
+                    
+                    
+
+                    <StackLayout Orientation="Horizontal" Spacing="10" Margin="0,10,0,0">
+                        <Image Source="cpsu2176.jpg" WidthRequest="450" Aspect="Fill"/>
+                    </StackLayout>
+
+                    <StackLayout Orientation="Horizontal" Spacing="10" Margin="0,8,0,0">
+
+                        <Image Source="like.jpeg" WidthRequest="45" HeightRequest="40"/>
+                        <Image Source="comment.jpeg" WidthRequest="45" HeightRequest="40"/>
+                        <Image Source="share.jpeg" WidthRequest="45" HeightRequest="40"/>
+                        <Image Source="save.jpeg" WidthRequest="45" HeightRequest="40" HorizontalOptions="EndAndExpand"/>
+                    </StackLayout>
+                    
+                  
+                </StackLayout>
+            </StackLayout>
+
+            
+            
+            
+            <StackLayout Orientation="Horizontal">
+                <Label Text="    " FontAttributes="Bold">
+                </Label>
+                <Image Source="Post1" Aspect="AspectFit" HeightRequest="20"></Image>
+                <Label Text=" Liked By simbonile and others" FontAttributes="Bold">
+                </Label>
+                
+            </StackLayout>
+
+            <StackLayout Orientation="Horizontal" Margin='0,0,0,0'>
+                <Label Text="   Yours.sincerelydoingthings" FontSize="18" FontAttributes="Bold" VerticalOptions="Center" Margin='0,10,0,0'/>
+                <Label Text="   New Year"   FontSize="18" Margin='0,10,0,0'></Label>
+            </StackLayout>
+            <Label Text="     View all 55 comments"></Label>
+
+            <StackLayout Orientation="Horizontal" Margin="0,5,0,30">
+                <Label Text="    " FontAttributes="Bold">
+                </Label>
+                <Image Source="cpsu2176" Aspect="AspectFit" HeightRequest="15" Margin='0,0,0,0'></Image>
+                <Label Text="   Add Comment">
+                </Label>
+            </StackLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <StackLayout Orientation="Vertical" Spacing="20" >
+
+                <StackLayout Orientation="Vertical">
+
+                    <StackLayout Orientation="Horizontal" Margin="0,0,10,0">
+                        <Frame Padding="0" IsClippedToBounds="True" CornerRadius="45" WidthRequest="50" HeightRequest="50">
+                            <Image Source="post1.jpeg"   Aspect="AspectFill" />
+                        </Frame>
+                        <Label Text=" Sim.Bone" FontSize="18" VerticalOptions="Center" />
+                    </StackLayout>
+
+                    
+                    
+                    
+                    
+                    
+                    
+                    <StackLayout Orientation="Horizontal" Spacing="10" Margin="0,10,0,0">
+                        <Image Source="post1.jpeg" WidthRequest="400" Aspect="AspectFit"/>
+                    </StackLayout>
+
+                    <StackLayout Orientation="Horizontal" Spacing="10" Margin="0,8,0,0">
+
+                        <Image Source="like.jpeg" WidthRequest="45" HeightRequest="40"/>
+                        <Image Source="comment.jpeg" WidthRequest="45" HeightRequest="40"/>
+                        <Image Source="share.jpeg" WidthRequest="45" HeightRequest="40"/>
+                        <Image Source="save.jpeg" WidthRequest="45" HeightRequest="40" HorizontalOptions="EndAndExpand"/>
+                    </StackLayout>
+
+
+                </StackLayout>
+            </StackLayout>
+
+
+
+
+            <StackLayout Orientation="Horizontal">
+                <Label Text="    " FontAttributes="Bold">
+                </Label>
+                <Image Source="post1" Aspect="AspectFit" HeightRequest="20"></Image>
+                <Label Text=" Liked By simbonile and others" FontAttributes="Bold">
+                </Label>
+
+            </StackLayout>
+
+            <StackLayout Orientation="Horizontal" Margin='0,0,0,0'>
+                <Label Text="   Sim.bone" FontSize="18" FontAttributes="Bold" VerticalOptions="Center" Margin='0,10,0,0'/>
+                <Label Text="   Blur"   FontSize="18" Margin='0,10,0,0'></Label>
+            </StackLayout>
+            <Label Text="     View all 55 comments"></Label>
+
+            <StackLayout Orientation="Horizontal" Margin='0,10,0,0'>
+                <Label Text="    " FontAttributes="Bold">
+                </Label>
+                <Image Source="cpsu2176" Aspect="AspectFit" HeightRequest="20" Margin="0,5,0,30"></Image>
+                <Label Text="   Add Comment">
+                </Label>
+            </StackLayout>
+
+
+
+            <StackLayout Orientation="Vertical" Spacing="20" >
+
+                <StackLayout Orientation="Vertical">
+
+                    <StackLayout Orientation="Horizontal" Margin="0,0,10,0">
+                        <Frame Padding="0" IsClippedToBounds="True" CornerRadius="45" WidthRequest="50" HeightRequest="50">
+                            <Image Source="post2.jpeg"   Aspect="AspectFill" />
+                        </Frame>
+                        <Label Text=" Jason" FontSize="18" VerticalOptions="Center"/>
+                    </StackLayout>
+
+
+
+
+
+
+
+                    <StackLayout Orientation="Horizontal" Spacing="10" Margin="0,10,0,0">
+                        <Image Source="post2.jpeg" WidthRequest="400" Aspect="AspectFit"/>
+                    </StackLayout>
+
+                    <StackLayout Orientation="Horizontal" Spacing="10" Margin="0,8,0,0">
+
+                        <Image Source="like.jpeg" WidthRequest="45" HeightRequest="40"/>
+                        <Image Source="comment.jpeg" WidthRequest="45" HeightRequest="40"/>
+                        <Image Source="share.jpeg" WidthRequest="45" HeightRequest="40"/>
+                        <Image Source="save.jpeg" WidthRequest="45" HeightRequest="40" HorizontalOptions="EndAndExpand"/>
+                    </StackLayout>
+
+
+                </StackLayout>
+            </StackLayout>
+
+
+
+
+            <StackLayout Orientation="Horizontal">
+                <Label Text="    " FontAttributes="Bold">
+                </Label>
+                <Image Source="post2" Aspect="AspectFit" HeightRequest="20"></Image>
+                <Label Text=" Liked By simbonile and others" FontAttributes="Bold">
+                </Label>
+
+            </StackLayout>
+
+            <StackLayout Orientation="Horizontal" Margin='0,0,0,0'>
+                <Label Text="   Jason" FontSize="18" FontAttributes="Bold" VerticalOptions="Center" Margin='0,10,0,0'/>
+                <Label Text="   New Year"   FontSize="18" Margin='0,10,0,0'></Label>
+            </StackLayout>
+            <Label Text="     View all 55 comments"></Label>
+
+            <StackLayout Orientation="Horizontal" Margin="0,5,0,30">
+                <Label Text="    " FontAttributes="Bold">
+                </Label>
+                <Image Source="post2" Aspect="AspectFit" HeightRequest="20" Margin='0,0,0,0'></Image>
+                <Label Text="   Add Comment">
+                </Label>
+            </StackLayout>
+
+
+
+            <StackLayout Orientation="Vertical" Spacing="20" >
+
+                <StackLayout Orientation="Vertical">
+
+                    <StackLayout Orientation="Horizontal" Margin="0,0,10,0">
+                        <Frame Padding="0" IsClippedToBounds="True" CornerRadius="45" WidthRequest="50" HeightRequest="50">
+                            <Image Source="post1.jpeg"  Aspect="AspectFill" />
+                        </Frame>
+                        <Label Text=" Sim.bone" FontSize="18" VerticalOptions="Center"/>
+                    </StackLayout>
+
+
+
+
+
+
+
+                    <StackLayout Orientation="Horizontal" Spacing="10" Margin="0,10,0,0">
+                        <Image Source="post1.jpeg" WidthRequest="400" Aspect="AspectFit"/>
+                    </StackLayout>
+
+                    <StackLayout Orientation="Horizontal" Spacing="10" Margin="0,8,0,0">
+
+                        <Image Source="like.jpeg" WidthRequest="45" HeightRequest="40"/>
+                        <Image Source="comment.jpeg" WidthRequest="45" HeightRequest="40"/>
+                        <Image Source="share.jpeg" WidthRequest="45" HeightRequest="40"/>
+                        <Image Source="save.jpeg" WidthRequest="45" HeightRequest="40" HorizontalOptions="EndAndExpand"/>
+                    </StackLayout>
+
+
+                </StackLayout>
+            </StackLayout>
+
+
+
+
+            <StackLayout Orientation="Horizontal">
+                <Label Text="    " FontAttributes="Bold">
+                </Label>
+                <Image Source="post1" Aspect="AspectFit" HeightRequest="20"></Image>
+                <Label Text=" Liked By simbonile and others" FontAttributes="Bold">
+                </Label>
+
+            </StackLayout>
+
+            <StackLayout Orientation="Horizontal" Margin="0,5,0,30">
+                <Label Text="   Yours.sincerelydoingthings" FontSize="18" FontAttributes="Bold" VerticalOptions="Center" Margin='0,10,0,0'/>
+                <Label Text="   New Year"   FontSize="18" Margin='0,10,0,0'></Label>
+            </StackLayout>
+            <Label Text="     View all 55 comments"></Label>
+
+            <StackLayout Orientation="Horizontal" Margin='0,10,0,0'>
+                <Label Text="    " FontAttributes="Bold">
+                </Label>
+                <Image Source="post1" Aspect="AspectFit" HeightRequest="20" Margin='0,0,0,0'></Image>
+                <Label Text="   Add Comment">
+                </Label>
+            </StackLayout>
+
+
+
+            <StackLayout Orientation="Vertical" Spacing="20" >
+
+                <StackLayout Orientation="Vertical">
+
+                    <StackLayout Orientation="Horizontal" Margin="0,0,10,0">
+                        <Frame Padding="0" IsClippedToBounds="True" CornerRadius="45" WidthRequest="50" HeightRequest="50">
+                            <Image Source="cpsu2176.jpg"   Aspect="AspectFill" />
+                        </Frame>
+                        <Label Text=" Yours.sincerelydoingthings" FontSize="18" VerticalOptions="Center"/>
+                    </StackLayout>
+
+
+
+
+
+
+
+                    <StackLayout Orientation="Horizontal" Spacing="10" Margin="0,10,0,0">
+                        <Image Source="post3.jpeg" WidthRequest="400" Aspect="AspectFit"/>
+                    </StackLayout>
+
+                    <StackLayout Orientation="Horizontal" Spacing="10" Margin="0,8,0,0">
+
+                        <Image Source="like.jpeg" WidthRequest="45" HeightRequest="40"/>
+                        <Image Source="comment.jpeg" WidthRequest="45" HeightRequest="40"/>
+                        <Image Source="share.jpeg" WidthRequest="45" HeightRequest="40"/>
+                        <Image Source="save.jpeg" WidthRequest="45" HeightRequest="40" HorizontalOptions="EndAndExpand"/>
+                    </StackLayout>
+
+
+                </StackLayout>
+            </StackLayout>
+
+
+
+
+            <StackLayout Orientation="Horizontal">
+                <Label Text="    " FontAttributes="Bold">
+                </Label>
+                <Image Source="post2" Aspect="AspectFit" HeightRequest="20"></Image>
+                <Label Text=" Liked By simbonile and others" FontAttributes="Bold">
+                </Label>
+
+            </StackLayout>
+
+            <StackLayout Orientation="Horizontal" Margin="0,5,0,30">
+                <Label Text="   Yours.sincerelydoingthings" FontSize="18" FontAttributes="Bold" VerticalOptions="Center" Margin='0,10,0,0'/>
+                <Label Text="   New Year"   FontSize="18" Margin='0,10,0,0'></Label>
+            </StackLayout>
+            <Label Text="     View all 55 comments"></Label>
+
+            <StackLayout Orientation="Horizontal" Margin='0,10,0,0'>
+                <Label Text="    " FontAttributes="Bold">
+                </Label>
+                <Image Source="post2" Aspect="AspectFit" HeightRequest="20" Margin='0,0,0,0'></Image>
+                <Label Text="   Add Comment">
+                </Label>
+            </StackLayout>
+
+
+            <!--post-->
+            <StackLayout Orientation="Vertical" Spacing="20" >
+
+                <StackLayout Orientation="Vertical">
+
+                    <StackLayout Orientation="Horizontal" Margin="0,0,10,0">
+                        <Frame Padding="0" IsClippedToBounds="True" CornerRadius="45" WidthRequest="50" HeightRequest="50">
+                            <Image Source="cpsu2176.jpg"   Aspect="AspectFill" />
+                        </Frame>
+                        <Label Text=" Yours.sincerelydoingthings" FontSize="18" VerticalOptions="Center"/>
+                    </StackLayout>
+
+
+
+
+
+
+
+                    <StackLayout Orientation="Horizontal" Spacing="10" Margin="0,10,0,0">
+                        <Image Source="post5.jpeg" WidthRequest="400" Aspect="AspectFit"/>
+                    </StackLayout>
+
+                    <StackLayout Orientation="Horizontal" Spacing="10" Margin="0,8,0,0">
+
+                        <Image Source="like.jpeg" WidthRequest="45" HeightRequest="40"/>
+                        <Image Source="comment.jpeg" WidthRequest="45" HeightRequest="40"/>
+                        <Image Source="share.jpeg" WidthRequest="45" HeightRequest="40"/>
+                        <Image Source="save.jpeg" WidthRequest="45" HeightRequest="40" HorizontalOptions="EndAndExpand"/>
+                    </StackLayout>
+
+
+                </StackLayout>
+            </StackLayout>
+
+
+
+
+            <StackLayout Orientation="Horizontal">
+                <Label Text="    " FontAttributes="Bold">
+                </Label>
+                <Image Source="post1" Aspect="AspectFit" HeightRequest="20"></Image>
+                <Label Text=" Liked By simbonile and others" FontAttributes="Bold">
+                </Label>
+
+            </StackLayout>
+
+            <StackLayout Orientation="Horizontal" Margin="0,5,0,30">
+                <Label Text="   Yours.sincerelydoingthings" FontSize="18" FontAttributes="Bold" VerticalOptions="Center" Margin='0,10,0,0'/>
+                <Label Text="   New Year"   FontSize="18" Margin='0,10,0,0'></Label>
+            </StackLayout>
+            <Label Text="     View all 55 comments"></Label>
+
+            <StackLayout Orientation="Horizontal" Margin='0,10,0,0'>
+                <Label Text="    " FontAttributes="Bold">
+                </Label>
+                <Image Source="post1" Aspect="AspectFit" HeightRequest="20" Margin='0,0,0,0'></Image>
+                <Label Text="   Add Comment">
+                </Label>
+            </StackLayout>
+
+
+
+            <StackLayout Orientation="Vertical" Spacing="20" >
+
+                <StackLayout Orientation="Vertical">
+
+                    <StackLayout Orientation="Horizontal" Margin="0,0,10,0">
+                        <Frame Padding="0" IsClippedToBounds="True" CornerRadius="45" WidthRequest="50" HeightRequest="50">
+                            <Image Source="cpsu2176.jpg"   Aspect="AspectFill" />
+                        </Frame>
+                        <Label Text=" Yours.sincerelydoingthings" FontSize="18" VerticalOptions="Center"/>
+                    </StackLayout>
+
+
+
+
+
+
+
+                    <StackLayout Orientation="Horizontal" Spacing="10" Margin="0,10,0,0">
+                        <Image Source="cpsu2176.jpg" WidthRequest="400" Aspect="AspectFit"/>
+                    </StackLayout>
+
+                    <StackLayout Orientation="Horizontal" Spacing="10" Margin="0,8,0,0">
+
+                        <Image Source="like.jpeg" WidthRequest="45" HeightRequest="40"/>
+                        <Image Source="comment.jpeg" WidthRequest="45" HeightRequest="40"/>
+                        <Image Source="share.jpeg" WidthRequest="45" HeightRequest="40"/>
+                        <Image Source="save.jpeg" WidthRequest="45" HeightRequest="40" HorizontalOptions="EndAndExpand"/>
+                    </StackLayout>
+
+
+                </StackLayout>
+            </StackLayout>
+
+
+
+
+            <StackLayout Orientation="Horizontal">
+                <Label Text="    " FontAttributes="Bold">
+                </Label>
+                <Image Source="post2" Aspect="AspectFit" HeightRequest="20"></Image>
+                <Label Text=" Liked By simbonile and others" FontAttributes="Bold">
+                </Label>
+
+            </StackLayout>
+
+            
+            <StackLayout Orientation="Horizontal" Margin='0,0,0,0'>
+                <Label Text="   Yours.sincerelydoingthings" FontSize="18" FontAttributes="Bold" VerticalOptions="Center" Margin='0,10,0,0'/>
+                <Label Text="   New Year"   FontSize="18" Margin='0,10,0,0'></Label>
+            </StackLayout>
+            <Label Text="     View all 55 comments"></Label>
+
+            <StackLayout Orientation="Horizontal" Margin='0,10,0,0'>
+                <Label Text="    " FontAttributes="Bold">
+                </Label>
+                <Image Source="post2" Aspect="AspectFit" HeightRequest="20" Margin='0,0,0,0'></Image>
+                <Label Text="   Add Comment">
+                </Label>
+            </StackLayout>
+
+<!--post-->
+            <StackLayout Orientation="Vertical" Spacing="20" >
+
+                <StackLayout Orientation="Vertical">
+
+                    <StackLayout Orientation="Horizontal" Margin="0,0,10,0">
+                        <Frame Padding="0" IsClippedToBounds="True" CornerRadius="45" WidthRequest="50" HeightRequest="50">
+                            <Image Source="cpsu2176.jpg"   Aspect="AspectFill" />
+                        </Frame>
+                        <Label Text=" Yours.sincerelydoingthings" FontSize="18" VerticalOptions="Center"/>
+                    </StackLayout>
+
+
+
+
+
+
+
+                    <StackLayout Orientation="Horizontal" Spacing="10" Margin="0,10,0,0">
+                        <Image Source="post7.jpeg" WidthRequest="400" Aspect="AspectFit"/>
+                    </StackLayout>
+
+                    <StackLayout Orientation="Horizontal" Spacing="10" Margin="0,8,0,0">
+
+                        <Image Source="like.jpeg" WidthRequest="45" HeightRequest="40"/>
+                        <Image Source="comment.jpeg" WidthRequest="45" HeightRequest="40"/>
+                        <Image Source="share.jpeg" WidthRequest="45" HeightRequest="40"/>
+                        <Image Source="save.jpeg" WidthRequest="45" HeightRequest="40" HorizontalOptions="EndAndExpand"/>
+                    </StackLayout>
+
+
+                </StackLayout>
+            </StackLayout>
+
+
+
+
+            <StackLayout Orientation="Horizontal">
+                <Label Text="    " FontAttributes="Bold">
+                </Label>
+                <Image Source="post7" Aspect="AspectFit" HeightRequest="20"></Image>
+                <Label Text=" Liked By simbonile and others" FontAttributes="Bold">
+                </Label>
+
+            </StackLayout>
+
+            <StackLayout Orientation="Horizontal" Margin='0,0,0,0'>
+                <Label Text="   Yours.sincerelydoingthings" FontSize="18" FontAttributes="Bold" VerticalOptions="Center" Margin='0,10,0,0'/>
+                <Label Text="   New Year"   FontSize="18" Margin='0,10,0,0'></Label>
+            </StackLayout>
+            <Label Text="     View all 55 comments"></Label>
+
+            <StackLayout Orientation="Horizontal" Margin='0,10,0,0'>
+                <Label Text="    " FontAttributes="Bold">
+                </Label>
+                <Image Source="post1" Aspect="AspectFit" HeightRequest="20" Margin='0,0,0,0'></Image>
+                <Label Text="   Add Comment">
+                </Label>
+            </StackLayout>
+
+
+
+            <StackLayout Orientation="Vertical" Spacing="20" >
+
+                <StackLayout Orientation="Vertical">
+
+                    <StackLayout Orientation="Horizontal" Margin="0,0,10,0">
+                        <Frame Padding="0" IsClippedToBounds="True" CornerRadius="45" WidthRequest="50" HeightRequest="50">
+                            <Image Source="cpsu2176.jpg"   Aspect="AspectFill" />
+                        </Frame>
+                        <Label Text=" Yours.sincerelydoingthings" FontSize="18" VerticalOptions="Center"/>
+                    </StackLayout>
+
+
+
+
+
+
+
+                    <StackLayout Orientation="Horizontal" Spacing="10" Margin="0,10,0,0">
+                        <Image Source="post6.jpeg" WidthRequest="400" Aspect="AspectFit"/>
+                    </StackLayout>
+
+                    <StackLayout Orientation="Horizontal" Spacing="10" Margin="0,8,0,0">
+
+                        <Image Source="like.jpeg" WidthRequest="45" HeightRequest="40"/>
+                        <Image Source="comment.jpeg" WidthRequest="45" HeightRequest="40"/>
+                        <Image Source="share.jpeg" WidthRequest="45" HeightRequest="40"/>
+                        <Image Source="save.jpeg" WidthRequest="45" HeightRequest="40" HorizontalOptions="EndAndExpand"/>
+                    </StackLayout>
+
+
+                </StackLayout>
+            </StackLayout>
+
+
+
+
+            <StackLayout Orientation="Horizontal">
+                <Label Text="    " FontAttributes="Bold">
+                </Label>
+                <Image Source="post2" Aspect="AspectFit" HeightRequest="20"></Image>
+                <Label Text=" Liked By simbonile and others" FontAttributes="Bold">
+                </Label>
+
+            </StackLayout>
+
+            <StackLayout Orientation="Horizontal" Margin='0,0,0,0'>
+                <Label Text="   Yours.sincerelydoingthings" FontSize="18" FontAttributes="Bold" VerticalOptions="Center" Margin='0,10,0,0'/>
+                <Label Text="   New Year"   FontSize="18" Margin='0,10,0,0'></Label>
+            </StackLayout>
+            <Label Text="     View all 55 comments"></Label>
+
+            <StackLayout Orientation="Horizontal" Margin='0,10,0,0'>
+                <Label Text="    " FontAttributes="Bold">
+                </Label>
+                <Image Source="post2" Aspect="AspectFit" HeightRequest="20" Margin='0,0,0,0'></Image>
+                <Label Text="   Add Comment">
+                </Label>
+            </StackLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </StackLayout>
+
+        <!--post 2-->
+        
+
+    </ScrollView>
+
+</ContentPage>
